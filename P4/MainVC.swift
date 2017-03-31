@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainVC.swift
 //  P4
 //
 //  Created by champ on 30/03/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func createMonsterBtnPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func searchMonsterBtnPressed(_ sender: UIButton) {
+    }
 
-}
+    @IBAction func viewMonsterBtnPressed(_ sender: UIButton) {
+    }
+
+   }
 

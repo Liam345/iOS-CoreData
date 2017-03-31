@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14095B2C1E8E7F150007B310 /* ViewMonsterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14095B2B1E8E7F150007B310 /* ViewMonsterVC.swift */; };
 		1430D3831E8C85A6004AB50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430D3821E8C85A6004AB50D /* AppDelegate.swift */; };
-		1430D3851E8C85A6004AB50D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430D3841E8C85A6004AB50D /* ViewController.swift */; };
+		1430D3851E8C85A6004AB50D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430D3841E8C85A6004AB50D /* MainVC.swift */; };
 		1430D3881E8C85A6004AB50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1430D3861E8C85A6004AB50D /* Main.storyboard */; };
 		1430D38B1E8C85A6004AB50D /* P4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1430D3891E8C85A6004AB50D /* P4.xcdatamodeld */; };
 		1430D38D1E8C85A6004AB50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1430D38C1E8C85A6004AB50D /* Assets.xcassets */; };
 		1430D3901E8C85A6004AB50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1430D38E1E8C85A6004AB50D /* LaunchScreen.storyboard */; };
 		1430D39B1E8C85A6004AB50D /* P4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430D39A1E8C85A6004AB50D /* P4Tests.swift */; };
 		1430D3A61E8C85A6004AB50D /* P4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430D3A51E8C85A6004AB50D /* P4UITests.swift */; };
+		1430D3B51E8C8FC3004AB50D /* Monster+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430D3B31E8C8FC3004AB50D /* Monster+CoreDataClass.swift */; };
+		1430D3B61E8C8FC3004AB50D /* Monster+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430D3B41E8C8FC3004AB50D /* Monster+CoreDataProperties.swift */; };
+		1430D3B91E8C958A004AB50D /* SearchMonsterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430D3B81E8C958A004AB50D /* SearchMonsterVC.swift */; };
+		1430D3BC1E8C9C82004AB50D /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430D3BB1E8C9C82004AB50D /* MonsterCell.swift */; };
+		1430D3BE1E8CC315004AB50D /* CreateMonsterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430D3BD1E8CC315004AB50D /* CreateMonsterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14095B2B1E8E7F150007B310 /* ViewMonsterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMonsterVC.swift; sourceTree = "<group>"; };
 		1430D37F1E8C85A6004AB50D /* P4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1430D3821E8C85A6004AB50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1430D3841E8C85A6004AB50D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1430D3841E8C85A6004AB50D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1430D3871E8C85A6004AB50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1430D38A1E8C85A6004AB50D /* P4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = P4.xcdatamodel; sourceTree = "<group>"; };
 		1430D38C1E8C85A6004AB50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		1430D3A11E8C85A6004AB50D /* P4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1430D3A51E8C85A6004AB50D /* P4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P4UITests.swift; sourceTree = "<group>"; };
 		1430D3A71E8C85A6004AB50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1430D3B31E8C8FC3004AB50D /* Monster+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Monster+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1430D3B41E8C8FC3004AB50D /* Monster+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Monster+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1430D3B81E8C958A004AB50D /* SearchMonsterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMonsterVC.swift; sourceTree = "<group>"; };
+		1430D3BB1E8C9C82004AB50D /* MonsterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
+		1430D3BD1E8CC315004AB50D /* CreateMonsterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateMonsterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +111,11 @@
 		1430D3811E8C85A6004AB50D /* P4 */ = {
 			isa = PBXGroup;
 			children = (
+				1430D3BA1E8C9C61004AB50D /* View */,
+				1430D3B31E8C8FC3004AB50D /* Monster+CoreDataClass.swift */,
+				1430D3B41E8C8FC3004AB50D /* Monster+CoreDataProperties.swift */,
 				1430D3821E8C85A6004AB50D /* AppDelegate.swift */,
-				1430D3841E8C85A6004AB50D /* ViewController.swift */,
+				1430D3B71E8C8FC9004AB50D /* Controller */,
 				1430D3861E8C85A6004AB50D /* Main.storyboard */,
 				1430D38C1E8C85A6004AB50D /* Assets.xcassets */,
 				1430D38E1E8C85A6004AB50D /* LaunchScreen.storyboard */,
@@ -126,6 +141,25 @@
 				1430D3A71E8C85A6004AB50D /* Info.plist */,
 			);
 			path = P4UITests;
+			sourceTree = "<group>";
+		};
+		1430D3B71E8C8FC9004AB50D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1430D3841E8C85A6004AB50D /* MainVC.swift */,
+				1430D3B81E8C958A004AB50D /* SearchMonsterVC.swift */,
+				1430D3BD1E8CC315004AB50D /* CreateMonsterVC.swift */,
+				14095B2B1E8E7F150007B310 /* ViewMonsterVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1430D3BA1E8C9C61004AB50D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1430D3BB1E8C9C82004AB50D /* MonsterCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1430D3851E8C85A6004AB50D /* ViewController.swift in Sources */,
+				1430D3B61E8C8FC3004AB50D /* Monster+CoreDataProperties.swift in Sources */,
+				1430D3851E8C85A6004AB50D /* MainVC.swift in Sources */,
 				1430D38B1E8C85A6004AB50D /* P4.xcdatamodeld in Sources */,
+				1430D3B51E8C8FC3004AB50D /* Monster+CoreDataClass.swift in Sources */,
 				1430D3831E8C85A6004AB50D /* AppDelegate.swift in Sources */,
+				1430D3BE1E8CC315004AB50D /* CreateMonsterVC.swift in Sources */,
+				1430D3B91E8C958A004AB50D /* SearchMonsterVC.swift in Sources */,
+				1430D3BC1E8C9C82004AB50D /* MonsterCell.swift in Sources */,
+				14095B2C1E8E7F150007B310 /* ViewMonsterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +556,7 @@
 				1430D3AC1E8C85A6004AB50D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1430D3AD1E8C85A6004AB50D /* Build configuration list for PBXNativeTarget "P4Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +565,7 @@
 				1430D3AF1E8C85A6004AB50D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1430D3B01E8C85A6004AB50D /* Build configuration list for PBXNativeTarget "P4UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +574,7 @@
 				1430D3B21E8C85A6004AB50D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
